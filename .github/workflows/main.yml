@@ -4,7 +4,7 @@ on: [push]
  
 jobs:
   build:
-    runs-on: shawngib/nano_customervoice_api
+    runs-on: windows-2019
 
     steps:
     - uses: actions/checkout@v1
